@@ -11,3 +11,14 @@ gem 'rails_12factor', group: :production              # Fixes Heroku deployment 
                                                       # TEMPLATING
                                                       #--------------------
 gem 'haml-rails'                                      # Nested alternative to html/erb
+
+                                                      # DEVELOPMENT TOOLS                                                     
+group :test, :development do                          #----------------------
+    gem 'rspec-rails'                                 # Improved testing suite
+    gem 'factory_girl_rails'                          #      Used by RSpec
+    gem 'faker'                                       #      Used by RSpec
+    gem 'capybara'                                    #      Used by RSpec
+    gem 'guard-rspec'                                 #      Used by RSpec
+    gem 'shoulda'                                     #      Used by RSpec
+end
+                                                      
