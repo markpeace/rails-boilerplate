@@ -7,3 +7,7 @@
                                                       # DEPLOYMENT
                                                       #----------------
 gem 'rails_12factor', group: :production              # Fixes Heroku deployment limitations
+                  
+                                                      # TEMPLATING
+                                                      #--------------------
+gem 'haml_rails'                                      # Nested alternative to html/erb
