@@ -1,4 +1,5 @@
 RailsBoilerplate::Application.routes.draw do
+  get "splash/index"
   get "test/test"
   root "splash#index"
   # The priority is based upon order of creation: first created -> highest priority.
