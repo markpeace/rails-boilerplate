@@ -10,4 +10,4 @@ gem 'rails_12factor', group: :production              # Fixes Heroku deployment 
                   
                                                       # TEMPLATING
                                                       #--------------------
-gem 'haml_rails'                                      # Nested alternative to html/erb
+gem 'haml-rails'                                      # Nested alternative to html/erb
