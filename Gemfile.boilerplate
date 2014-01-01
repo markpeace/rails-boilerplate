@@ -20,5 +20,8 @@ group :test, :development do                          #----------------------
     gem 'capybara'                                    #      Used by RSpec
     gem 'guard-rspec'                                 #      Used by RSpec
     gem 'shoulda'                                     #      Used by RSpec
+    gem 'better_errors'                               # Replaces the standard error page with more helpful information
+    gem 'binding_of_caller'                           #      Used by better_errors
+    gem 'bullet'                                      # Checks for N+1 queries
 end
                                                       
