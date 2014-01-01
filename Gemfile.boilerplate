@@ -12,7 +12,7 @@ gem 'rails_12factor', group: :production              # Fixes Heroku deployment 
                                                       #--------------------
 gem 'haml-rails'                                      # Nested alternative to html/erb
 gem 'simple_form'                                     # Better forms
-gem 'zurb-foundation'                                 # Responsive front-end framework
+gem 'foundation-rails'                                # Responsive front-end framework
 
                                                       # DEVELOPMENT TOOLS                                                     
 group :test, :development do                          #----------------------
