@@ -1,0 +1,16 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: railsboilerplate-dev
+  pool: 5
+  host: localhost
+  username: action
+  password:
+
+test:
+  adapter: postgresql
+  database: railsboilerplate-test
+  pool: 5
+  host: localhost
+  username: action
+  password:
