@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-describe SplashController do
+describe BoilerplateController do
 
-  describe "GET 'index'" do
+  describe "GET 'splash'" do
     it "returns http success" do
-      get 'index'
+      get 'splash'
       response.should be_success
     end
   end
