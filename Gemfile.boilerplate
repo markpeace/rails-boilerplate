@@ -12,13 +12,15 @@ gem 'rails_12factor', group: :production              # Fixes Heroku deployment 
                                                       #--------------------
 gem 'haml-rails'                                      # Nested alternative to html/erb
 gem 'simple_form'                                     # Better forms
+gem 'zurb-foundation'                                 # Responsive front-end framework
 
                                                       # DEVELOPMENT TOOLS                                                     
 group :test, :development do                          #----------------------
     gem 'rspec-rails'                                 # Improved testing suite
     gem 'factory_girl_rails'                          #      Used by RSpec
     gem 'faker'                                       #      Used by RSpec
-    gem 'capybara'                                    #      Used by RSpec
+    gem 'capybara'            
+    #      Used by RSpec
     gem 'guard-rspec'                                 #      Used by RSpec
     gem 'shoulda'                                     #      Used by RSpec
     gem 'better_errors'                               # Replaces the standard error page with more helpful information
