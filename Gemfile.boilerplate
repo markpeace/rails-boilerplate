@@ -32,6 +32,7 @@ end
                                                       # DEPLOYMENT
                                                       #----------------
 gem 'rails_12factor', group: :production              # Fixes Heroku deployment limitations
+gem 'figaro'                                          # Deploys Environment Variables
 
                                                       
                                                       
