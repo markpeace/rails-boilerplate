@@ -2,4 +2,8 @@
 #  Copy to 'application.yml' and add secret values to this
 #
 
-DOMAIN_NAME:
+APP_NAME: 
+DOMAIN_NAME: 
+ROBOT_EMAIL_ADDRESS: 
+SENDGRID_USERNAME: 
+SENDGRID_PASSWORD: 
