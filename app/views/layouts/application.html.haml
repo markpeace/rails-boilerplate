@@ -14,5 +14,7 @@
     .row
       .small-12.columns
         =render 'layouts/topbar'
+        %p.notice=notice
+        %p.alert=alert
         =yield
     =javascript_include_tag "application"

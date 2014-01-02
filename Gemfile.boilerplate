@@ -4,15 +4,16 @@
 #
 #
                                                       
-                                                      # DEPLOYMENT
-                                                      #----------------
-gem 'rails_12factor', group: :production              # Fixes Heroku deployment limitations
                   
                                                       # TEMPLATING
                                                       #--------------------
 gem 'haml-rails'                                      # Nested alternative to html/erb
 gem 'simple_form'                                     # Better forms
 gem 'foundation-rails'                                # Responsive front-end framework
+
+                                                      # FUNCTIONALITY
+                                                      #-------------------
+gem 'devise'                                          # Authentication                                                     
 
                                                       # DEVELOPMENT TOOLS                                                     
 group :test, :development do                          #----------------------
@@ -27,5 +28,10 @@ group :test, :development do                          #----------------------
     gem 'binding_of_caller'                           #      Used by better_errors
     gem 'bullet'                                      # Checks for N+1 queries
 end
+
+                                                      # DEPLOYMENT
+                                                      #----------------
+gem 'rails_12factor', group: :production              # Fixes Heroku deployment limitations
+
                                                       
                                                       

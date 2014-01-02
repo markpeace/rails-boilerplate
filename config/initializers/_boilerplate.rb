@@ -1,0 +1,7 @@
+#
+#
+#  USE THIS FILE TO ESTABLISH GLOBAL SETTINGS USED IN THE BOILERPLATE
+#
+#
+
+ENV['domain']="mydomain.com"
