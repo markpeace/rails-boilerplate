@@ -4,6 +4,11 @@
       %h1=link_to "My Site"
   %section.top-bar-section
     %ul.right.has-form
-      %li=link_to "LOG IN", new_user_session_path, :class=>"button [radius round]"
-      %li.divider
-      %li=link_to "REGISTER", new_user_registration_path, :class=>"button [radius round]"
+      -if user_signed_in?
+        %li=link_to "YOUR ACCOUNT", "#", :class=>"button [radius round]"
+        %li.divider
+        %li=link_to "LOG OUT", destroy_user_session_path, :method=>:delete, :class=>"button [radius round]"
+      -else
+        %li=link_to "LOG IN", new_user_session_path, :class=>"button [radius round]"
+        %li.divider
+        %li=link_to "REGISTER", new_user_registration_path, :class=>"button [radius round]"
